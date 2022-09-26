@@ -1,9 +1,14 @@
 package e201814100;
 
 public class Hello {
-	String msg = "hello";
+    String msg = "hello";
 
-	public void say() {
-		System.out.println(msg);
-	}
+    public Hello(String msg) {
+        this.msg = msg;
+    }
+
+    public void say() {
+        System.out.println(msg);
+    }
 }
+
