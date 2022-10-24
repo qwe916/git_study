@@ -1,8 +1,10 @@
 package j201814100;
 
 public class Main {
-    public static void main(String[] args) {
-        String s = "hello world";
+    static void say(String s) {
         System.out.println(s);
+    }
+    public static void main(String[] args) {
+       say("hello world");
     }
 }
